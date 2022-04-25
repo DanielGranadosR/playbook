@@ -81,3 +81,8 @@ console.log(newlistjs)
 /*Buscar el primer ecplorer que sea( de la CDMX usando find*/
 const explorercdmx = explorers.find((state)=>state.city="CDMX")
 console.log(explorercdmx)
+
+/*Obtén la suma de todos los exercises_completed, usa REDUCE*/
+
+const explorerreduce = explorers.reduce((acc,newvalue)=>acc+newvalue.exercises_completed,0)
+console.log(explorerreduce)
