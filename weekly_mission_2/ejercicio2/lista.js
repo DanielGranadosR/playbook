@@ -77,3 +77,7 @@ console.log(newlist)
 
 const newlistjs=newlist.filter((letters)=>letters.includes("js"))
 console.log(newlistjs)
+
+/*Buscar el primer ecplorer que sea( de la CDMX usando find*/
+const explorercdmx = explorers.find((state)=>state.city="CDMX")
+console.log(explorercdmx)
