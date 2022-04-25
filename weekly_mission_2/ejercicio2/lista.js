@@ -86,3 +86,14 @@ console.log(explorercdmx)
 
 const explorerreduce = explorers.reduce((acc,newvalue)=>acc+newvalue.exercises_completed,0)
 console.log(explorerreduce)
+
+/*Uso de Some*/
+
+const areAnyTrue = explorers.some((b)=>b.exercisesFinished===true)
+
+console.log(areAnyTrue)
+
+/*Uso de Every*/
+
+const isEveryTrue = explorers.every((e)=>e.isFinished)
+console.log(isEveryTrue)
