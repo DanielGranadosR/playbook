@@ -1,0 +1,14 @@
+{
+  "name": "spiderverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.0.0"
+  }
+}
