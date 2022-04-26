@@ -11,3 +11,12 @@ describe("Unit Tests for Spiderman Class", () => {
       expect(andrewGarfield.studio).toBe("Sony");
     });
   })
+
+ 
+    test('Test method', () => {
+      const tomHolland = new Spiderman("Sony and Marvel",25,"Tom Holland",5,"Sony-Marvel")
+
+      expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Sony-Marvel");
+     
+    });
+  

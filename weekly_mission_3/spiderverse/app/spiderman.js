@@ -9,6 +9,14 @@ class Spiderman{
     }
 
 
+
+    getInfo(){
+
+        return `Hey, I'm ${this.actor} from ${this.studio}`
+
+    }
+
+
 }
 
 module.exports  = Spiderman

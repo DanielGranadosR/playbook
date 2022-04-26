@@ -1,0 +1,14 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "prueba de creacion de proyecto tomando en cuenta los requerimientos",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
+  },
+  "author": "Dan",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.0.1"
+  }
+}
