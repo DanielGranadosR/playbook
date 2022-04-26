@@ -12,11 +12,22 @@ describe("Unit Tests for User class",()=>{
     expect(user.lastUpdated).not.toBeUndefined()
     })    
 
-    test("Create User Object",()=>{
+    test("Create Getters",()=>{
         const user = new User(1,"username","Name","Bio")
         expect(user.getUsername).toBe("username")
         expect(user.getBio).toBe("Bio")
         expect(user.getDateCreated).not.toBeUndefined()
         expect(user.getLastUpdated).not.toBeUndefined()
+    })
+
+    test("Create Setters",()=>{
+
+        const user = new User(1,"username","Name","Bio")
+        user.setUsername = "username2"
+        expect(user.username).toBe("username2")
+
+        user.setBio = "New Bio"
+        expect(user.bio).toBe("New Bio")
+        
     })
 })
