@@ -20,5 +20,11 @@ describe("Test for UserService",()=>{
         expect(userInfoList[3]).toBe("Sin bio")
 
     })
+
+    test ("3. Create a new static method that updates the name",()=>{
+        const user = UserService.create(1,"username","name")
+        UserService.updateUserName(user,"newusername")
+        expect(user.name).toBe("newusername")
+    })
 })
 

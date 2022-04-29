@@ -10,6 +10,11 @@ class UserService{
         return newlist
             
         }
+
+    static updateUserName(newobject){
+        newobject.name = "newusername"
+        return newobject
+    }
  
 }
 
